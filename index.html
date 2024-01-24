@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey's main</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- ..........Manrope font google ......... -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+<!-- .....tailwind custome color..... -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+           'p-description' : rgba(19, 19, 24, 0.60),
+           'btn-main':'#FF4240;',
+          }
+        }
+      }
+    }
+  </script>
+
+<style>
+   .font-manrope{
+    font-family: 'Manrope', sans-serif;
+   } 
+</style>
+
+</head>
+<body  class="font-manrope">
+    
+    <header>
+
+    </header>
+
+    <main>
+
+<!-- ....2nd part  Professional Hockeys Club......... -->
+       <section class="my-20   ">
+        <div class="text-center ">  
+            <h3 class=" text-2xl   lg:text-4xl  font-extrabold mb-6 ">Professional Hockeys Club </h3>
+            <p class=" text-sm lg:text-base font-medium   text-p-description">Hockey is an outdoor game played between two teams of 11 players who use long 
+                curved sticks to hit a small ball and try to score goals.</p>
+        </div>
+
+        <div class=" mx-28  my-16   flex   flex-col  lg:flex-row  gap-20  ">
+            <div class="  flex-1 text-center ">
+            <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70% </div>
+            <h3 class=" text-base lg:text-xl font-semibold mb-2 "> Prayer Facility </h3>
+            <p class=" text-sm lg:text-base  font-normal  text-p-description">prayer, an act of communication by humans.
+            </p>
+           </div>
+
+           <div class=" flex-1 text-center      flex-col  lg:flex-row">
+            <div class="radial-progress text-primary" style="--value:95;" role="progressbar">95% </div>
+            <h3 class="text-base lg:text-xl font-semibold mb-2 "> Experienced Coach </h3>
+            <p class=" text-sm lg:text-base font-normal   text-p-description">a thought-provoking and creative partnership.
+           </div>
+
+           <div class=" flex-1 text-center      flex-col  lg:flex-row">
+            <div class="radial-progress text-primary" style="--value:90  ;" role="progressbar ">90% </div>
+            <h3 class=" text-base lg:text-xl  font-semibold mb-2 "> Senior Player </h3>
+            <p class=" text-sm lg:text-base font-normal  text-p-description ">Be specific and genuine.
+           </div>
+
+           <div class="flex-1 text-center        flex-col  lg:flex-row">
+            <div class="radial-progress text-primary" style="--value:80;" role="progressbar">80% </div>
+            <h3 class="text-base lg:text-xl  font-semibold mb-2 ">Training Ground </h3>
+            <p class=" text-sm lg:text-base font-normal  text-p-description ">a place where people go to get fit.
+           </div>
+
+
+        </div>
+          <!-- ............3th part     Program Sections.... -->
+        <section class="my-20    container mx-auto">
+            <div class="text-center ">  
+                <h3 class="text-2xl   lg:text-4xl  font-extrabold mb-6 ">Program Sections </h3>
+                <p class="text-sm lg:text-base font-medium   text-p-description">The program section is part of one cluster, is referenced by
+                     the same program section name in different clusters</p>
+            </div>
+
+            <div   class="mx-28  my-16  flex   gap-5  flex-col  lg:flex-row ">
+                <div class="  flex-1   hero min-h-screen" style="background-image: url(Images/2.png);   width: 100%; height: 338px; ">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+                        <p class="mb-5">The junior programmer is responsible for design, implementation,
+                             and maintenance of software to meet the needs of internal and external clients.</p>
+                        <button class="btn btn-primary">Register Now</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class=" flex-1    hero min-h-screen" style="background-image: url(Images/3.png);   width: 100%; height: 338px;">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+                        <p class="mb-5">Youth programs are particular activities designed to involve people between the ages of 10 and 25.</p>
+                        <button class="btn btn-primary">Register Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+             <div  class="mx-28  ">
+                <div class="   hero min-h-screen" style="background-image: url(Images/4.png);   ">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Professional Program</h1>
+                        <p class="mb-5">Professional development programs are trainings, courses and classes that help employees learn new skills or maintain a certification or license. </p>
+                        <button class="btn btn-primary  btn-color-btn-main">Register Now</button>
+                      </div>
+                    </div>
+                  </div>
+             </div>
+
+        </section>
+       </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
